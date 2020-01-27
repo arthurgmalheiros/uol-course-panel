@@ -1,25 +1,24 @@
 <template>
   <v-app>
     <v-content>
-      <DataTable/>
+      <DataTable />
     </v-content>
   </v-app>
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
-import DataTable from './components/DataTable.vue';
+import Vue from "vue";
+import DataTable from "./components/DataTable.vue";
 
 export default Vue.extend({
-  name: 'App',
+  name: "App",
 
   components: {
-    DataTable,
+    DataTable
   },
 
   data: () => ({
     //
-  }),
+  })
 });
 </script>
